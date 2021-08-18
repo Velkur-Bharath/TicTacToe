@@ -136,6 +136,11 @@ int main(){
       cout<<"Player 2 is the Winner!!";
       return 0;
     }
+    else if(s.size()==9){
+      ShowBoard(arr);
+      cout<<"The Game is a DRAW!";
+      return 0;
+    }
     else{
       flag=0;
       ShowBoard(arr);
